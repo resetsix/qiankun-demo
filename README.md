@@ -1,3 +1,27 @@
+## 启动方式
+- 拉取源码
+- 安装依赖（`qiankun-demo`和`src/micro-apps/`下的两个`CRA` `demo`项目都要安装依赖）
+```bash
+#在对应的目录安装依赖
+yarn 
+
+# 或
+npm i
+```
+
+- 先手动启动 `src/micro-apps/`下的两个`demo`，端口分别是`4001`、`4002`
+
+```bash
+#启动命令
+yarn start
+
+# 或
+npm start
+```
+
+- 然后启动 `qiankun-demo`，访问 `http://localhost:4000`
+
+
 ## 微前端框架实践指南
 本文档的内容是记录入手微前端框架 qiankun 的过程以及问题解决过程。
 由于本人使用的技术栈只跟 react 和 webpack 相关，所以本项目是一个 Base qiankun 基座和两个 react（CRA）微项目。

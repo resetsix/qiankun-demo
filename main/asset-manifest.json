@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a7488ce.css",
-    "main.js": "/static/js/main.a69c9c74.js",
-    "static/js/787.f502e698.chunk.js": "/static/js/787.f502e698.chunk.js",
-    "index.html": "/index.html",
-    "main.1a7488ce.css.map": "/static/css/main.1a7488ce.css.map",
-    "main.a69c9c74.js.map": "/static/js/main.a69c9c74.js.map",
-    "787.f502e698.chunk.js.map": "/static/js/787.f502e698.chunk.js.map"
+    "main.css": "/qiankun-demo/main/static/css/main.1a7488ce.css",
+    "main.js": "/qiankun-demo/main/static/js/main.9e6598f9.js",
+    "static/js/787.f502e698.chunk.js": "/qiankun-demo/main/static/js/787.f502e698.chunk.js",
+    "index.html": "/qiankun-demo/main/index.html",
+    "main.1a7488ce.css.map": "/qiankun-demo/main/static/css/main.1a7488ce.css.map",
+    "main.9e6598f9.js.map": "/qiankun-demo/main/static/js/main.9e6598f9.js.map",
+    "787.f502e698.chunk.js.map": "/qiankun-demo/main/static/js/787.f502e698.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a7488ce.css",
-    "static/js/main.a69c9c74.js"
+    "static/js/main.9e6598f9.js"
   ]
 }

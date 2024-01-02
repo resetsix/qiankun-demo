@@ -19,10 +19,16 @@ export const BasePage = () => {
         </Text>
 
         <Flex justify="center" gap={10}>
-          <Button type="primary" onClick={() => navigate("subapp/react02")}>
+          <Button
+            type="primary"
+            onClick={() => navigate("/qiankun-demo/subapp/demo01")}
+          >
             切换到子项目二
           </Button>
-          <Button type="primary" onClick={() => navigate("subapp/react01")}>
+          <Button
+            type="primary"
+            onClick={() => navigate("/qiankun-demo/subapp/demo02")}
+          >
             切换到子项目一
           </Button>
         </Flex>

@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/subapp/demo01/static/css/main.1a7488ce.css",
-    "main.js": "/subapp/demo01/static/js/main.ccee3abe.js",
-    "static/js/787.72e78898.chunk.js": "/subapp/demo01/static/js/787.72e78898.chunk.js",
-    "index.html": "/subapp/demo01/index.html",
-    "main.1a7488ce.css.map": "/subapp/demo01/static/css/main.1a7488ce.css.map",
-    "main.ccee3abe.js.map": "/subapp/demo01/static/js/main.ccee3abe.js.map",
-    "787.72e78898.chunk.js.map": "/subapp/demo01/static/js/787.72e78898.chunk.js.map"
+    "main.css": "/qiankun-demo/subapp/demo01/static/css/main.1a7488ce.css",
+    "main.js": "/qiankun-demo/subapp/demo01/static/js/main.1c5a923f.js",
+    "static/js/787.72e78898.chunk.js": "/qiankun-demo/subapp/demo01/static/js/787.72e78898.chunk.js",
+    "index.html": "/qiankun-demo/subapp/demo01/index.html",
+    "main.1a7488ce.css.map": "/qiankun-demo/subapp/demo01/static/css/main.1a7488ce.css.map",
+    "main.1c5a923f.js.map": "/qiankun-demo/subapp/demo01/static/js/main.1c5a923f.js.map",
+    "787.72e78898.chunk.js.map": "/qiankun-demo/subapp/demo01/static/js/787.72e78898.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a7488ce.css",
-    "static/js/main.ccee3abe.js"
+    "static/js/main.1c5a923f.js"
   ]
 }

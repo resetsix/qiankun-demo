@@ -5,7 +5,7 @@ import "./App.css";
 const routes = [
 	{
 		path: "/", // 路由
-		element: <Navigate to="/qiankun-demo" />, // 路由对应页面组件
+		element: <Navigate to="/qiankun-demo/main" />, // 路由对应页面组件
 	},
 	{
 		path: "/qiankun-demo/*", // 路由

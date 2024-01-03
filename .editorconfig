@@ -1,29 +1,18 @@
-# EditorConfig is awesome: https://EditorConfig.org
+# .editorconfig 此文件为编辑器配置文件，用于统一不同编辑器的编码风格
 
-# top-most EditorConfig file
-root = true
+root = true # 指定此为最顶级配置
 
-# Unix-style newlines with a newline ending every file
-[*]
-end_of_line = lf
-insert_final_newline = true
+[*] # 对所有文件应用下述规则
+indent_style = space # 缩进采用空格
+indent_size = 4 # 缩进宽4空格
+end_of_line = lf # 用Unix风格的行尾
+charset = utf-8 # 使用utf-8编码
+trim_trailing_whitespace = true # 去掉行尾的空格
+insert_final_newline = true # 文件结束时添加新行
 
-# Matches multiple files with brace expansion notation
-# Set default charset
-[*.{js,py}]
-charset = utf-8
+[*.md] # 对Markdown文件用下述规则
+trim_trailing_whitespace = false # 不去掉行尾空格
 
-# 4 space indentation
-[*.py]
-indent_style = space
-indent_size = 2
-
-# Indentation override for all JS under lib directory
-[src/**.{js,vue}]
-indent_style = space
-indent_size = 2
-
-# Matches the exact files either package.json or .travis.yml
-[{package.json,vue.config.js}]
-indent_style = space
-indent_size = 2
+[makefile] # 对makefile文件用下述规则
+indent_style = tab # 缩进采用Tab键
+indent_size = 4  # 缩进宽4个Tab键

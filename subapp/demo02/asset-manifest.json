@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/qiankun-demo/subapp/demo02/static/css/main.1a7488ce.css",
-    "main.js": "/qiankun-demo/subapp/demo02/static/js/main.637af27d.js",
+    "main.js": "/qiankun-demo/subapp/demo02/static/js/main.41d5122c.js",
     "static/js/787.743fcec6.chunk.js": "/qiankun-demo/subapp/demo02/static/js/787.743fcec6.chunk.js",
     "index.html": "/qiankun-demo/subapp/demo02/index.html",
     "main.1a7488ce.css.map": "/qiankun-demo/subapp/demo02/static/css/main.1a7488ce.css.map",
-    "main.637af27d.js.map": "/qiankun-demo/subapp/demo02/static/js/main.637af27d.js.map",
+    "main.41d5122c.js.map": "/qiankun-demo/subapp/demo02/static/js/main.41d5122c.js.map",
     "787.743fcec6.chunk.js.map": "/qiankun-demo/subapp/demo02/static/js/787.743fcec6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a7488ce.css",
-    "static/js/main.637af27d.js"
+    "static/js/main.41d5122c.js"
   ]
 }

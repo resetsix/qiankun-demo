@@ -1,28 +1,24 @@
 {
-  "name": "qiankun-example",
-  "version": "0.0.1",
-  "description": "qiankun demo",
-  "dependencies": {
-    "@types/qs": "^6.9.11",
-    "antd": "^5.12.7",
-    "qs": "^6.11.2"
-  },
-  "devDependencies": {
-    "npm-run-all": "^4.1.5"
-  },
-  "scripts": {
-    "install": "npm-run-all --serial install:*",
-    "install:main": "cd main && npm i",
-    "install:demo01": "cd demo01 && npm i",
-    "install:demo02": "cd demo02 && npm i",
-    "start": "npm-run-all --parallel start:*",
-    "start:demo02": "cd demo02 && npm start",
-    "start:demo01": "cd demo01 && npm start",
-    "start:main": "cd main && npm start",
-    "build": "npm-run-all build:* && bash ./scripts/bundle.sh",
-    "build:demo02": "cd demo02 && npm run build",
-    "build:demo01": "cd demo01 && npm run build",
-    "build:main": "cd main && npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+    "name": "parent-base",
+    "version": "0.0.1",
+    "description": "dt-base",
+    "dependencies": {},
+    "devDependencies": {
+        "npm-run-all": "^4.1.5"
+    },
+    "scripts": {
+        "install": "npm-run-all --serial install:*",
+        "install:main": "cd main && npm i",
+        "install:micro-console": "cd micro-console && npm i",
+        "install:micro-editor": "cd micro-editor && npm i",
+        "start": "npm-run-all --parallel start:*",
+        "start:micro-editor": "cd micro-editor && npm start",
+        "start:micro-console": "cd micro-console && npm start",
+        "start:main": "cd main && npm start",
+        "build": "npm-run-all build:* && bash ./scripts/bundle.sh",
+        "build:micro-editor": "cd micro-editor && npm run build",
+        "build:micro-console": "cd micro-console && npm run build",
+        "build:main": "cd main && npm run build",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
 }

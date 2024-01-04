@@ -1,7 +1,6 @@
 import { message } from "antd";
 import qs from "qs";
 
-// import * as process from "process";
 interface ReqConfig extends RequestInit {
     token?: string;
     data?: Record<string, any>;

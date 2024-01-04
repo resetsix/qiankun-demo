@@ -5,11 +5,11 @@ rm -rf ./dist
 mkdir ./dist
 mkdir ./dist/subapp
 
-# demo02子应用
-cp -r ./demo02/build/ ./dist/subapp/demo02/
+# micro-editor子应用
+cp -r ./micro-editor/build/ ./dist/subapp/micro-editor/
 
-# demo01子应用
-cp -r ./demo01/build/ ./dist/subapp/demo01/
+# micro-console子应用
+cp -r ./micro-console/build/ ./dist/subapp/micro-console/
 
 # main基座
 cp -r ./main/build/ ./dist/main/
